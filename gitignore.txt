@@ -1,3 +1,0 @@
-node_modules/
-neon_drift.db
-.env
