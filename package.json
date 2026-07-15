@@ -1,0 +1,17 @@
+{
+  "name": "neon-drift-backend",
+  "version": "1.0.0",
+  "description": "Neon Drift postback verification + direct ETH payout server",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ethers": "^6.11.1",
+    "express": "^4.18.2"
+  }
+}
