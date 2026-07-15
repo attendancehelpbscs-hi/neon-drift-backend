@@ -1,0 +1,17 @@
+{
+  "name": "neon-drift-backend",
+  "version": "1.0.0",
+  "description": "Neon Drift postback verification + FaucetPay ETH payout server",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
